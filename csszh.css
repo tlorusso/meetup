@@ -1,0 +1,136 @@
+﻿body {
+  background-image: url(Stempel_STAT-01.png);
+  background-repeat: no-repeat;
+  background-size: 290px;
+}
+
+/******************
+* ZH Style-Sheet
+******************/
+
+/*FONT für alle Slides*/
+
+.reveal {
+  font-family: Arial, sans-serif;
+}
+
+.reveal h1 ,
+.reveal h2,
+.reveal h3,
+.reveal h5,
+.reveal h6{
+  font-family: Arial Black, sans-serif;
+ /*font-style: bold;*/
+}
+
+.reveal h4{
+  font-family: Arial, sans-serif;
+}
+
+.reveal h1 {
+  text-shadow: none; }
+
+.reveal h3,
+.reveal h3{
+   color: black;
+   margin-top:0px;
+}
+
+/* Fontfarbe für Titelfarbe*/
+
+.section .reveal h1,
+.section .reveal h2,
+.section .reveal h3,
+.section .reveal p{
+   color: black;
+}
+
+/*Spickel & Logo für Hintergrund*/
+.reveal section img {
+  margin: 15px 30px;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: none; };
+  
+.exclaim .reveal .state-background {
+  background-image: url("Stempel_STAT-01.png");
+  background-repeat: no-repeat;
+  opacity : 0.5;
+background-position: top left;}
+
+.reveal .state-background{
+background: white;
+width: 0;
+height: 0;
+bottom: -40%;
+border-style: solid;
+border-width: 700px 0 0 700px;
+border-color: transparent transparent transparent #009ee0;
+opacity: 0.2;
+}
+
+.section .reveal .state-background {
+   background: white;
+   width: 0;
+height: 0;
+bottom: -40%;
+border-style: solid;
+border-width: 700px 0 0 700px;
+border-color: transparent transparent transparent #009ee0;
+opacity: 1;
+position: absolute;
+display: block;
+}
+
+/*Styles für normale Präsentationsfolie*/
+
+.section2 .reveal h1,
+.section2 .reveal h3,
+.section2 .reveal h4,
+.section2 .reveal h5{
+   color: #009ee0;
+}
+
+.section2 .reveal p {
+   color: black;
+   margin-top: 50px;
+}
+
+/*Styles für Listen*/
+
+li {
+    list-style: none;
+    padding:0;
+    margin:0;
+	 padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+li:before {
+    content: "■ ";
+    color: #009ee0;; /* or whatever color you prefer */
+}
+
+
+.multicol {
+    columns: 2 200px;         /* number of columns and width in pixels*/
+    -webkit-columns: 2 200px; /* chrome, safari */
+    -moz-columns: 2 200px;    /* firefox */
+  }
+
+
+/*Hintergrundbild und Styles für Endfolie - noch in Arbeit */
+
+.end .reveal .state-background {
+  background-repeat: repeat;
+  background-position: center; 
+  background-color: #009ee0; }
+
+.end .reveal h1,
+.end .reveal h2,
+.end .reveal h3,
+.end .reveal p{
+   color: white;
+   
+   margin-top: 160px;
+}
+
